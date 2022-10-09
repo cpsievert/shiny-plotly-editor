@@ -1,7 +1,7 @@
 library(shiny)
 library(plotly)
 
-editor_url <- "https://cpsievert.github.io/shiny-plotly-editor"
+editor_url <- "https://shiny-plotly-editor.cpsievert.me"
 
 ui <- fluidPage(
   fluidRow(
