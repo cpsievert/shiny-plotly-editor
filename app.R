@@ -35,9 +35,7 @@ server <- function(input, output, session) {
           status = 200,
           content_type = 'application/json',
           content = data,
-          headers = list(
-            "Access-Control-Allow-Origin" = editor_url
-          )
+          headers = list("Access-Control-Allow-Origin" = editor_url)
         )
       }
     )
