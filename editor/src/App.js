@@ -25,7 +25,6 @@ class App extends Component {
     fetch(plotURL)
       .then(response => response.json())
       .then(fig => { 
-        console.log("Figure", fig);
         this.setState({data: fig.data, layout: fig.layout, config: fig.config});
       });
   }
